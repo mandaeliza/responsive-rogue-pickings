@@ -159,8 +159,9 @@ header nav ul li a {
 /******** FOOTER STYLES ********/
 /* The widths are in a percentage! */
 footer {
-	text-align: center;
 	margin-top: 8px;
+	display: flex;
+	justify-content: center;
 }
 
 footer span {
@@ -207,5 +208,35 @@ footer span {
 
 /******** DESKTOP STYLES ********/
 @media all and (min-width: 1200px) {
+	body {
+		font-size: 1em;
+	}
+	header .content-wrapper {
+		max-width: 1200px;
+		width: 90%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	header h1 {
+		margin: 0;
+		padding: 38px 0;
+		text-align: left;
+		border: none;
+	}
+
+	header nav {
+		width: 21%;
+		padding: 46px 0;
+	}
 	
+	header nav ul {
+		margin: 0;
+		padding: 0;
+		line-height: 2.25rem;
+		list-style: none;
+		display: flex;
+	}
 }
