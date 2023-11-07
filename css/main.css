@@ -5,9 +5,12 @@ body {
 	color: #000000;
 }
 
-/* The width property has been changed to max-width */
 .content-wrapper {
 	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
 }
 
 h1,
@@ -40,13 +43,16 @@ p {
 
 /******** HEADER STYLES ********/
 /* The widths are in a percentage! */
-/* header {
-	
-} */
+header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	width: 100%;
 }
 
 header h1 span {
@@ -67,6 +73,7 @@ header nav ul li {
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0 10px;
+	width: 100%;
 }
 
 header nav ul li a {
@@ -77,12 +84,16 @@ header nav ul li a {
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 /* The widths are in a percentage! */
+
+/* .top-section {
+
+} */
+
 .main-image img {
 	width: 100%;
 	border-top: 3px solid #77A466;
 	border-bottom: 3px solid #77a466;
 }
-
 
 .main-title h2 {
 	color: #45610E;
@@ -90,10 +101,11 @@ header nav ul li a {
 }
 
 /******** BOTTOM SECTION ********/
-/* .top-section,
+.top-section,
 .bottom-section {
-
-} */
+	display: flex;
+	justify-content: center;
+}
 
 .bottom-section .content-wrapper {
 	border-top: 5px solid #EEE;
@@ -108,17 +120,20 @@ header nav ul li a {
 }
 
 .section-one {
-	width: 29%;
+	/* width: 29%; */
+	width: 100%;
 }
 
 .section-two {
-	width: 42%;
+	/* width: 42%; */
 	border-left: 5px solid #EEE;
 	border-right: 5px solid #EEE;
+	width: 100%;
 }
 
 .section-three {
-	width: 29%;
+	/* width: 29%; */
+	width: 100%;
 }
 
 .bottom-section h3 {
