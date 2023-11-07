@@ -1,7 +1,10 @@
 /******** GLOBAL STYLES ********/
+html {
+	font-size: 16px;
+}
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: .9em;
 	color: #000000;
 }
 
@@ -22,23 +25,23 @@ h4 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.5rem;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 0.75rem;
 }
 
 p {
-	line-height: 36px;
+	line-height: 2.25rem;
 }
 
 /******** HEADER STYLES ********/
@@ -69,7 +72,7 @@ header nav ul {
 }
 
 header nav ul li {
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0 10px;
@@ -147,8 +150,8 @@ header nav ul li a {
 
 .menu-list li {
 	color: #45610E;
-	font-size: 16px;
-	line-height: 36px;
+	font-size: 1rem;
+	line-height: 2.25rem;
 }
 
 /******** FOOTER STYLES ********/
@@ -162,5 +165,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 14px;
+	font-size: 0.875rem;
 }
