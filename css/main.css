@@ -169,3 +169,43 @@ footer span {
 	color: #45610E;
 	font-size: 0.875rem;
 }
+
+/******** TABLET STYLES ********/
+@media all and (min-width: 768px) {
+
+	.bottom-section .content-wrapper {
+		border-top: 5px solid #EEE;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+	.section-one,
+	.section-two,
+	.section-three {
+		box-sizing: border-box;
+		border-bottom: 5px solid #EEE;
+	}
+	
+	.section-one {
+		width: 29%;
+		padding-right: 30px;
+	}
+	
+	.section-two {
+		width: 42%;
+		padding: 0px 30px;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+	}
+	
+	.section-three {
+		width: 29%;
+		padding-left: 30px;
+	}
+		
+}
+
+/******** DESKTOP STYLES ********/
+@media all and (min-width: 1200px) {
+	
+}
