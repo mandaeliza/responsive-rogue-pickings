@@ -8,8 +8,6 @@ body {
 /* The width property has been changed to max-width */
 .content-wrapper {
 	max-width: 1200px;
-	margin: 0 auto;
-	overflow: auto;
 }
 
 h1,
@@ -42,13 +40,11 @@ p {
 
 /******** HEADER STYLES ********/
 /* The widths are in a percentage! */
-header {
-	height: 110px;
-	margin: 0 auto;
-}
+/* header {
+	
+} */
 
 header h1 {
-	float: left;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -58,7 +54,6 @@ header h1 span {
 }
 
 header nav {
-	float: right;
 	padding: 46px 0;
 }
 
@@ -68,7 +63,6 @@ header nav ul {
 }
 
 header nav ul li {
-	display: inline-block;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -96,10 +90,10 @@ header nav ul li a {
 }
 
 /******** BOTTOM SECTION ********/
-.top-section,
+/* .top-section,
 .bottom-section {
 
-}
+} */
 
 .bottom-section .content-wrapper {
 	border-top: 5px solid #EEE;
@@ -110,7 +104,6 @@ header nav ul li a {
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	float: left;
 	padding: 0 40px;
 }
 
